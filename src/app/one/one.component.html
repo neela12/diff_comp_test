@@ -1,0 +1,23 @@
+<div *ngIf="status1" class="two_cls">
+    <div >
+
+        <span>{{data[0].name}}</span> <span>{{data[0].quantity}}</span>
+
+        <div>
+            <i class="fa fa-plus" (click)="addAmount(0)" aria-hidden="true"></i> <input type="text"
+                [(ngModel)]='amount1'> <i (click)="reduceAmount(0, amount1)" class="fa fa-minus" aria-hidden="true"></i>
+        </div>
+
+    </div>
+
+    <div *ngIf="status2">
+        <span>{{data[1].name}}</span> <span>{{data[1].quantity}}</span>
+
+        <div>
+            <i class="fa fa-plus" (click)="addAmount(1)" aria-hidden="true"></i> <input type="text"
+                [(ngModel)]='amount2'> <i (click)="reduceAmount(1, amount2)" class="fa fa-minus" aria-hidden="true"></i>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,14 @@
+.cls div{
+    margin: 8px 90px;
+    font-size: 21px;
+   
+}
+.cls{
+    display : flex;
+    border: 1px solid #bdbdd2;  
+    width: 39%;
+    margin: 15px;
+}
+i{
+    cursor : pointer;
+}

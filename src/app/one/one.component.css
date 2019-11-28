@@ -1,0 +1,25 @@
+.two_cls {
+
+    border: 1px solid #bdbdd2; 
+    width: 29%;
+    margin: 34px 14%; 
+
+}
+.two_cls  div{
+    display: flex;
+    
+}
+
+.two_cls  div{
+    margin:6px;
+}
+
+.two_cls  div span{
+    margin:11px;
+}
+.two_cls div  div i{
+    margin:6px;
+}
+i{
+    cursor : pointer;
+}
